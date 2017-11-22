@@ -1,0 +1,1 @@
+# sample_responsive_slider
