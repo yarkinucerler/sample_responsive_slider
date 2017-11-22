@@ -1,1 +1,1 @@
-# sample_responsive_slider
+# Sample Responsive Slider

@@ -1,0 +1,28 @@
+{
+  "name": "sample_responsive_slider",
+  "version": "1.0.0",
+  "description": "Sample Responsive Slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarkinucerler/sample_responsive_slider.git"
+  },
+  "keywords": [
+    "Sample",
+    "Responsive",
+    "Slider"
+  ],
+  "author": "Yarkin UCERLER <yarkinucerler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarkinucerler/sample_responsive_slider/issues"
+  },
+  "homepage": "https://github.com/yarkinucerler/sample_responsive_slider#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
