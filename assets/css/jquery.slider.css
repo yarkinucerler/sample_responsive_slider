@@ -1,0 +1,80 @@
+/* Created By Yarkın ÜÇERLER on date 22.11.2017 */
+
+.slider-container {
+    position: relative;
+    overflow: hidden !important;
+}
+
+.slider-container > .slider-wrapper {
+    position: relative;
+    overflow: hidden !important;
+}
+
+.slider-container > .slider-wrapper > .slider {
+    position: relative;
+}
+
+.slider-container > .slider-wrapper > .slider:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.slider-container > .slider-wrapper > .slider > .item {
+    float: left;
+}
+
+.slider-container > .slider-wrapper > .slider > .item img {
+    margin: 0 auto;
+}
+
+.slider-container > .slider-wrapper > .slider > .item a {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
+.slider-container > .slider-control {
+    margin: 0 auto;
+    position: relative;
+}
+
+.slider-control .slider-previous, 
+.slider-control .slider-next {
+    width: 27px;
+    height: 27px;
+    bottom: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.6em;
+    position: absolute;
+    background: transparent url(../images/arrow-left.png) no-repeat 50% 50%;
+}
+
+.slider-control .slider-next {
+    right: 15px;
+}
+
+.slider-control .slider-previous {
+    left: 15px;
+}
+
+.slider-control .slider-previous::before, 
+.slider-control .slider-next::before {
+    content: '';
+    width: 27px;
+    height: 27px;
+    bottom: 17px;
+    cursor: pointer;
+    font-size: 1.6em;
+    position: absolute;
+    text-align: center;
+}
+
+.slider-control .slider-next:before {
+    content: '>';
+}
+
+.slider-control .slider-previous:before {
+    content: '<';
+}
