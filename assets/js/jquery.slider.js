@@ -29,7 +29,7 @@ $('document').ready(function () {
         * @date 22.11.2017 
         * 
         * Size Adjusting
-        * Before the slider and the slider's items adjusting to size. It find slider items according to parent'a parameter.
+        * If It find slider items according to parent's parameter, the slider and the slider's items are adjusted to size parent's element size.
         * The measure and item information of the items found are returned by json.
         * 
         */
